@@ -1,0 +1,159 @@
+
+*{padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    #prueba1, #prueba2{
+        font-size: 0px;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    #box1 {
+         background-color: darkblue;
+         width: 100%;
+    }
+    #box2 {
+        background-color: blue;
+         width: 100%;
+    }
+    #box3 {
+        background-color: aquamarine;
+         width: 100%;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    p{
+        margin: 0px;
+        text-align: center;
+    
+    }
+}
+
+
+
+*{padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    #prueba1, #prueba3{
+        font-size: 0px;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    #box1 {
+         background-color: #8B0000
+
+         ;
+         width: 100%;
+    }
+    #box2 {
+        background-color: red;
+         width: 100%;
+    }
+    #box3 {
+        background-color: #DA7092
+
+        ;
+         width: 100%;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50%;
+
+    }
+
+    p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+
+    }
+}
+
+
+
+@media only screen and (min-width: 900px){
+    #prueba2, #prueba3{
+        font-size: 0px;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    #box1 {
+         background-color: #036402
+
+
+
+         ;
+         width: 100%;
+    }
+    #box2 {
+        background-color: green;
+         width: 100%;
+    }
+    #box3 {
+        background-color: #96FB97
+
+        ;
+         width: 100%;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100%;
+
+    }
+
+    p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+
+    }
+}
